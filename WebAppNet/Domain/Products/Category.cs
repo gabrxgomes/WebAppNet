@@ -1,9 +1,11 @@
-﻿namespace WebAppNet.Domain.Products
-{
-    public class Category
-    {
-        public int Id { get; set; }
+﻿namespace WebAppNet.Domain.Products;
 
-        public string Name { get; set; }
-    }
+public class Category : Entity
+{
+
+
+    public string Name { get; set; }
+
+
+    
 }
